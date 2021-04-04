@@ -63,11 +63,11 @@ void MainWindow::on_pushButton_5_clicked(bool checked)
     QIcon *ico = new QIcon();
            ico->addPixmap(QPixmap("C:\\Users\\ELCOT\\Desktop\\icon.png"),QIcon::Normal,QIcon::On);
            if(QIcon::On==true) {
-               qDebug() <<"button is checked ";
+               qDebug() <<"Button Checked--ON-- ";
            }
            else
            {
-               qDebug() <<"button is checked ";
+               qDebug() <<"Button Checked--OFF-- ";
            }
            ico->addPixmap(QPixmap("C:\\Users\\ELCOT\\Desktop\\off.png"),QIcon::Normal,QIcon::Off);
            ui->pushButton_5->setIcon(*ico);
